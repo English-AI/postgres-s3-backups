@@ -20,7 +20,7 @@ const uploadToS3 = async ({ name, path }: { name: string, path: string }) => {
 
   if (env.AWS_S3_ENDPOINT) {
     console.log(`Using custom endpoint: ${env.AWS_S3_ENDPOINT}`);
-
+    clientOptions.forcePathStyle = true;
     clientOptions.endpoint = env.AWS_S3_ENDPOINT;
   }
 
