@@ -1,0 +1,9 @@
+{
+	"$schema": "https://railway.app/railway.schema.json",
+	"build": {
+		"buildEnvironment" :"V2"
+	},
+	"deploy": {
+		"region": "ap-northeast-1"
+	}
+}
