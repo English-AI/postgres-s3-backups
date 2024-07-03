@@ -4,6 +4,6 @@
 		"buildEnvironment" :"V2"
 	},
 	"deploy": {
-		"region": "ap-northeast-1"
+		"region": "asia-southeast1"
 	}
 }
